@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <!-- <bean id="car" class="com.shreyas.Car" scope="prototype"></bean>   Bean scope-->
+    
+    
+    
+     <!--
+    <bean id="car" class="com.shreyas.Car" autowire="byName"></bean>
+    <bean id="eng" class="com.shreyas.DisealEngine"></bean>
+    <bean id="Petrol" class="com.shreyas.PetrolEngine"></bean>
+    
+    For this we need to declare setters and take the instance of interface in id then perticular bean inject
+    -->
+    
+    <!--
+    <bean id="car" class="com.shreyas.Car" autowire="byType"></bean>
+    <bean id="DisealEngine" class="com.shreyas.DisealEngine"></bean>
+    take directly class name what we want to inject 
+     -->
+    
+    <!--  
+    <bean id="car" class="com.shreyas.Car" autowire="constructor"></bean>
+    <bean id="diseal" class="com.shreyas.DisealEngine" primary="true"></bean>
+    <bean id="Petrol" class="com.shreyas.PetrolEngine"></bean>
+	-->
+    
+    
+    
+    
+</beans>
